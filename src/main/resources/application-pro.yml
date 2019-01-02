@@ -1,0 +1,6 @@
+server:
+  port: 8081
+cpuSize: F
+age: 18
+girl:
+  name: huang ya nan

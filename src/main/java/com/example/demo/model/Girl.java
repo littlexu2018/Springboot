@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Component;
  * @Modified By:
  */
 @Component
+@ConfigurationProperties(prefix = "girl")
 public class Girl {
 
 	private String name;

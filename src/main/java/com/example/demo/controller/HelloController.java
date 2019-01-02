@@ -27,8 +27,8 @@ public class HelloController {
 	@Autowired
 	private Girl girl;
 
-	@RequestMapping(value = "/hello" , method = RequestMethod.GET)
+	@RequestMapping(value = {"/hello","/hi"} , method = RequestMethod.GET)
 	public String hello(){
-		return cupSize+" "+age;
+		return cupSize+" "+age +" girl.age  "+girl.getName();
 	}
 }
